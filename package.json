@@ -1,0 +1,28 @@
+{
+  "name": "onebill-annual-site",
+  "version": "1.0.0",
+  "description": "Onebill annual site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onebillie/onebillannualsite.git"
+  },
+  "author": "Tina Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onebillie/onebillannualsite/issues"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-css": "^0.11.0",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3"
+  }
+}
