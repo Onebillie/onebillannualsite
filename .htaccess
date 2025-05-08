@@ -1,0 +1,13 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^onebill\.ie$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.onebill\.ie$
+RewriteRule ^/?$ "https\:\/\/onebill\.ie\/indexannual\.html" [R=301,L]
+RewriteRule ^index\.html$ https://onebill.ie/indexannual.html [R=301,L]
+RewriteCond %{HTTP_HOST} ^onebill\.ie$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.onebill\.ie$
+RewriteRule ^onboarding\-form\.html$ "https\:\/\/onebill\.ie\/indexannual\.html" [R=301,L]
+RewriteCond %{HTTP_HOST} ^onebill\.ie$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.onebill\.ie$
+RewriteRule ^homs$ "https\:\/\/onebill\.ie\/indexannual\.html\?reference\=homs" [R=301,L]
+
