@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneBill - Save Money Automatically</title>
+    <meta name="description" content="OneBill - Automatically save money with our AI-powered utility platform. Manage electricity, gas, broadband and more. Sign up for smarter savings today!"/>
+    <meta name="keywords" content="OneBill, utility bills, save money, AI-powered, electricity, gas, broadband"/>
+    <meta name="author" content="OneBill" />
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/onebilFav.png"/>
+  
+    <style>
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+p, span, a, li, button {
+    font-size: 16px;
+}
+.btn, .navbar-nav .btn, .btn-outline-primary, .btn-outline-success, .btn-success {
+    font-size: 16px;
+    font-weight: 600;
+}
+.input-error { border-color: red !important; }
+.alert { padding: 10px; margin-bottom: 15px; border: 1px solid transparent; border-radius: .25rem; }
+.alert-danger { color: #721c24; background-color: #f8d7da; border-color: #f5c6cb; position: fixed; top: 90px; z-index: 2; right: 10px; }
+
+/* Navbar */
+.navbar { background-color: white; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); }
+.navbar-brand img { max-height: 45px; }
+.navbar-text { font-size: 16px; margin-left: 15px; color: #000; }
+.navbar-nav .nav-link { color: #000; font-weight: 600; padding: 10px 15px; }
+.navbar-nav .nav-link.active { border-bottom: 2px solid #007bff; }
+.navbar-nav .btn { font-weight: 600; margin-left: 10px; padding: 8px 16px; }
+.navbar-nav .btn-success { background-color: #014895; border-color: #007bff; }
+.btn-success:hover { color: #014895; background-color: transparent; border: 1px solid #014895; }
+.navbar-toggler { border-color: transparent; }
+.btn-outline-success { border-color: green; color: green; }
+
+/* Banner Section */
+.oneBillBanner { margin-top: 50px; padding-top: 60px; margin-bottom: 4rem; background: #f8f9fa; background-image: url('./images/bg.jpg');background-size: cover;background-position: center;background-repeat: no-repeat;}
+.oneBillBanner h1 { font-size: 50px; font-weight: 500; color: #004aa9; line-height: 1.2; margin-bottom: 1rem; }
+.oneBillBanner h2 { font-size: 35px; ; color: #000; margin-bottom: 2rem; margin-top: 70px; }
+.oneBillBanner .btn-primary { background-color: #004aa9; border-color: #004aa9; font-weight: 600; font-size: 18px; padding: 15px 20px; margin-bottom: 15px; width: 100%; max-width: 400px; text-align: center; border-radius: 5px; }
+.oneBillBanner .btn-primary:hover { background-color: #003a8c; border-color: #003a8c; }
+.oneBillBanner .btn-outline-primary { color: #000000; border-color: #004aa9; font-weight: 600; font-size: 18px; padding: 15px 20px; margin-bottom: 15px; width: 100%; max-width: 400px; text-align: center; border-radius: 5px; }
+.oneBillBanner .btn-outline-primary:hover { background-color: #004aa9; color: #fff; }
+.oneBillBanner .col-md-6 { display: flex; justify-content: center; align-items: center; }
+.oneBillBanner .right-section { display: flex; flex-direction: column; align-items: center; }
+.oneBillBanner .right-section h3 { font-size: 28px; font-weight: 700; color: #000; margin-bottom: 20px; text-align: center; }
+.oneBillBanner .right-section .record-savings { font-size: 14px; font-weight: 500; color: #888; margin-top: 20px; text-align: center; font-style: italic; }
+.record-savings { font-size: 14px; font-weight: 300; color: #4a4848; margin-top: 20px; text-align: center; }
+/* .btn-click{} */
+.oneBillBanner .btn-outline-primary span{font-size: 20px;font-weight: 800;}
+/* Timeline Section */
+.timelinesection { width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 50px 20px; }
+.timeline-header { text-align: center; margin-top: 80%; }
+.timelinesection h2 { margin-top: -70px; font-weight: 600; color: #004aa9; }
+.timeline-container { width: 70%; max-width: 1900px; position: relative; padding-top: 10%; }
+.timeline-line { position: relative; width: 110%; height: 4px; background-color: #004aa9; margin: 50px 0; }
+.timeline-dot { position: absolute; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; background-color: #004aa9; border-radius: 50%; }
+.dot-1 { left: 0%; }
+.dot-2 { left: 20%; }
+.dot-3 { left: 35%; }
+.dot-4 { left: 50%; }
+.dot-5 { left: 65%; }
+.dot-6 { left: 80%; }
+.dot-7 { left: 100%; }
+.timeline-box { position: absolute; width: 200px; padding: 10px; display: flex; align-items: center; gap: 10px; }
+.icon1 { width: 60px; float: right; }
+.customdot7 { position: absolute; top: 50%; left: 101.3%; width: 40px; height: 40px; background-color: transparent; background-image: url('data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 x%3D%220px%22 y%3D%220px%22 width%3D%22100%22 height%3D%22100%22 viewBox%3D%220%2C0%2C256%2C256%22%3E %3Cg fill%3D%22none%22 fill-rule%3D%22nonzero%22 stroke%3D%22none%22 stroke-width%3D%221%22 stroke-linecap%3D%22butt%22 stroke-linejoin%3D%22miter%22 stroke-miterlimit%3D%2210%22 stroke-dasharray%3D%22%22 stroke-dashoffset%3D%220%22 font-family%3D%22none%22 font-weight%3D%22none%22 font-size%3D%22none%22 text-anchor%3D%22none%22 style%3D%22mix-blend-mode%3A normal%22%3E%3Cg transform%3D%22scale(6.4%2C6.4)%22%3E%3Cpath d%3D%22M4.207%2C35.5l2.573%2C-2.574l-0.328%2C-0.353c-3.193%2C-3.43 -4.952%2C-7.896 -4.952%2C-12.573c0%2C-10.201 8.299%2C-18.5 18.5%2C-18.5c0.776%2C0 1.598%2C0.062 2.5%2C0.19v4.032c-0.839%2C-0.147 -1.677%2C-0.222 -2.5%2C-0.222c-7.995%2C0 -14.5%2C6.505 -14.5%2C14.5c0%2C3.578 1.337%2C7.023 3.765%2C9.701l0.353%2C0.389l2.883%2C-2.883v8.293z%22 fill%3D%22%2350de1c%22%3E%3C%2Fpath%3E%3Cpath d%3D%22M20%2C2c0.627%2C0 1.287%2C0.042 2%2C0.129v3.009c-0.67%2C-0.092 -1.339%2C-0.138 -2%2C-0.138c-8.271%2C0 -15%2C6.729 -15%2C15c0%2C3.702 1.383%2C7.267 3.894%2C10.037l0.705%2C0.778l0.743%2C-0.743l1.658%2C-1.658v6.586h-6.586l1.379%2C-1.379l0.682%2C-0.682l-0.657%2C-0.706c-3.107%2C-3.338 -4.818%2C-7.682 -4.818%2C-12.233c0%2C-9.925 8.075%2C-18 18%2C-18M20%2C1c-10.493%2C0 -19%2C8.507 -19%2C19c0%2C4.994 1.934%2C9.527 5.086%2C12.914l-3.086%2C3.086h10v-10l-3.365%2C3.365c-2.248%2C-2.48 -3.635%2C-5.753 -3.635%2C-9.365c0%2C-7.732 6.268%2C-14 14%2C-14c1.031%2C0 2.033%2C0.119 3%2C0.33v-5.071c-0.98%2C-0.155 -1.977%2C-0.259 -3%2C-0.259z%22 fill%3D%22%235d9f32%22%3E%3C%2Fpath%3E%3Cg%3E%3C%2Fsvg%3E'); background-size: contain; background-repeat: no-repeat; background-position: center; transform: translate(-50%, -50%); }
+.timeline-box img { width: 54px; height: 54px; }
+.box-1 { top: -105px; left: calc(5% - 75px); }
+.box-2 { top: 40px; left: calc(20% - 75px); }
+.box-3 { top: -106px; left: calc(35% - 75px); }
+.box-4 { top: 40px; left: calc(50% - 75px); }
+.box-5 { top: -140px; left: calc(65% - 75px); }
+.box-6 { top: 40px; left: calc(80% - 75px); }
+.box-7 { top: -100px; left: calc(95% - 75px); }
+
+/* Upload Section */
+.sectionupload { display: flex; align-items: center; justify-content: center; height: 100%; }
+.container1 { max-width: 750px; width: 100%; padding: 2rem; background-color: #fff; border-radius: .5rem; }
+.card-title { font-weight: 600; color: #004aa9; font-size: 1.75rem; text-align: center; margin-bottom: .25rem; }
+.card-subtitle { color: #777; font-weight: 500; text-align: center; }
+.file-upload { position: relative; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 4rem 1.5rem; margin-top: 3.5rem; border: 3px dashed #3784d2; border-radius: .5rem; transition: background-color .25s ease-out; }
+.file-upload:hover { background-color: #dbedff; }
+.file-input { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; outline: none; cursor: pointer; }
+.text-muted { padding-top: 30px; }
+.text-muted span { font-weight: 700; color: black; }
+.pro-tip { font-weight: 700; }
+.icon { width: 250px; margin-bottom: 1rem; }
+.file-name { margin-top: 1rem; font-size: 1rem; color: #333; }
+
+/* Bills in Hand Section */
+.sectionhaveyourbill { height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; background-color: #f8f9fa; }
+.container2 { max-width: 750px; width: 100%; padding: 2rem; border-radius: .5rem; align-items: center; }
+.form-control { border-color: #0056b3; padding: 1.5rem; font-size: 1.2rem; text-align: center; }
+.icon-container { display: flex; justify-content: space-between; margin: 20px 0; }
+.icon-box { border: 2px solid #0056b3; border-radius: 10px; padding: 20px; text-align: center; width: 30%; background-color: #fff; text-decoration: none; }
+.icon-box img { width: 100px; margin-bottom: 10px; }
+.icon-box p { margin: 0; font-size: 1.2rem; color: #6c757d; font-weight: 600; }
+.btn-start { background-color: #0056b3; color: #fff; padding: 0.8rem 3rem; font-size: 1.2rem; border-radius: 8px; border: 2px solid #0056b3; width: 50%; }
+.btn-start:hover { background-color: #fff; color: #0056b3; border: 1px solid #0056b3; }
+.header-container h2 { font-size: 1.75rem; align-items: center; margin-bottom: 20px; color: #004aa9; font-weight: 600; }
+.fivemin { width: 60px; float: right; }
+
+/* Fully Managed Utilities Section */
+.fullmanagesection { background-color: #f8f9fa; margin: 0; padding: 10px; }
+.managedheading h2 { color: #0056b3; font-size: 1.75rem; font-weight: 600; text-align: center; margin-bottom: 30px; }
+.container4 { max-width: 800px; background-color: #fff; border-radius: 10px; padding: 30px; margin: 50px auto; text-align: center; }
+.features-container { display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; }
+.icon-container1 { display: flex; justify-content: center; gap: 15px; margin-bottom: 15px; }
+.icon-container1 img { width: 100px; }
+.price { font-size: 2.5rem; color: #333; margin: 20px 0; font-weight: 700; }
+.features { text-align: left; margin: 0; padding: 10px 20px; list-style-type: none; font-size: 1rem; color: #333; border: 2px solid #0056b3; border-radius: 10px; box-sizing: border-box; line-height: 1.5; }
+.features li { margin-bottom: 8px; }
+.disclaimer { font-size: 0.9rem; color: #333; margin-top: 20px; }
+.disclaimer strong { font-weight: 700; }
+
+/* Appointment Section */
+.appointment-section { max-width: 1200px; margin: 50px auto; display: flex; justify-content: space-between; align-items: center; padding: 20px; flex-wrap: wrap;}
+.appointment-text { max-width: 50%; text-align: center;}
+.appointment-text h3 { font-size: 2rem; font-weight: 400; margin-bottom: 20px; line-height: 1.5; }
+.appointment-text p { font-size: 1.25rem; font-weight: 300; margin-top: 20px; }
+.appointment-card {width: 500px;height: 500px;background-color: #fff;border: 1px solid #ddd;border-radius: 8px;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);overflow: hidden;text-align: center;margin: auto;}
+.calendly-inline-widget{ width: 100%; }
+.calendar-placeholder { width: 100%; height: 500px; border: none; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center; color: #555; font-size: 1.5rem; }
+
+/* Why Join OneBill Section */
+.unique-services-section { width: 100%; max-width: 1200px; margin: 60px auto; padding: 40px; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+.unique-services-section span { font-weight: 600; color: #014895; font-size: 1.75rem;}
+.unique-services-title { text-align: center; margin-bottom: 40px; font-weight: 600; font-size: 1.75rem; color: #333; position: relative; }
+.unique-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.unique-service { text-align: center; padding: 30px 20px; border-radius: 10px; transition: transform 0.3s ease, background-color 0.3s ease; }
+.unique-icon { width: 60px; margin-bottom: 20px; }
+.unique-service-title { font-weight: 600; margin-bottom: 15px; font-size: 22px; color: #333; }
+.unique-service img { width: 25%; }
+.unique-service-description { font-size: 16px; color: #000000; line-height: 1.6; }
+
+/* FAQ Section */
+.faq-section { background-color: #f8f9fa; padding: 60px 130px; border-radius: 12px; width: 100%; }
+.faq-section h2 { text-align: center; font-weight: 600; font-size: 1.75rem; color: #333; }
+.faq-section h2 span { color: #014895; font-size: 1.75rem;}
+.accordion { margin-top: 50px; }
+.accordion-button { background-color: #ffffff; color: #333; font-weight: 500; transition: background-color 0.3s ease; }
+.accordion-button:not(.collapsed) { background-color: #014895; color: #ffffff; box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125); }
+.accordion-item { border: none; border-radius: 5px; margin-bottom: 10px; }
+.btn-faq { background-color: #014895; color: #ffffff; padding: 10px 20px; border-radius: 5px; margin-top: 20px; font-weight: 500; display: block; width: 200px; text-align: center; margin-left: auto; margin-right: auto; text-decoration: none; }
+.btn-faq:hover { background-color: #013a78; color: #ffffff; }
+
+/* Footer Section */
+.custom-footer { background-color: #f8f9fa; padding: 40px; border-radius: 12px; }
+.align-text-right { text-align: right; }
+.brand-logo img { max-width: 150px; margin-bottom: 20px; }
+.footer-description p { margin-bottom: 0.5rem; color: #333; }
+.social-icons-group { padding-top: 30px; }
+.social-icons-group a { margin-right: 10px; color: #014895; font-size: 1.2rem; padding: 9px; border-radius: 5px; background-color: #ebedef; }
+.social-icons-group a:hover { color: #007bff; }
+.quick-links-section, .policies-section { margin-bottom: 20px; }
+.quick-links-section a, .policies-section a { display: block; color: #007bff; text-decoration: none; margin-bottom: 8px; }
+.quick-links-section a:hover, .policies-section a:hover { text-decoration: underline; }
+.certification-badge img { max-width: 120px; margin-bottom: 15px; }
+.chat-button-fixed { position: fixed; bottom: 20px; right: 20px; }
+.link-container a { display: block; margin-bottom: 8px; color: #014895; text-decoration: none; font-weight: 450; }
+.link-container a:hover { text-decoration: underline; }
+
+/* @media (max-width: 600px) {
+    .appointment-card {
+        width: 100%; 
+        height: auto; 
+        padding-bottom: 100%; 
+        position: relative;
+    }
+
+    .calendly-inline-widget {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+} */
+@media (max-width: 768px) {
+    .appointment-section {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .appointment-text {
+        max-width: 100%;
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .appointment-text h3, 
+    .appointment-text p {
+        text-align: center; 
+    }
+
+    .appointment-card {
+        width: 100%; 
+        max-width: 500px;
+    }
+}
+
+
+/* Responsive Styles */
+@media (max-width: 678px) {
+    .unique-service-title { font-size: 15px; }
+    .unique-service-description { font-size: 11px; }
+    .managedheading h2{font-size: 1.3rem;}
+    .appointment-card {width: 500px;height: 500px;}
+}
+
+@media (max-width: 768px) {
+    .appointment-text h3 { font-size: 1.2rem; }
+    .icon-box img{width: 30px;}
+    .card-title{
+        font-size: 1.3rem;
+    }
+    .features li{font-size: 13px;}
+    .unique-services-section{margin: 10px auto;}
+}
+
+@media (max-width: 768px) {
+    .features-container { flex-direction: column; }
+    .features { flex: 1 1 100%; margin-top: 20px; }
+    .icon-container1 img { width: 60px; }
+    .price { font-size: 1.65rem; }
+    .container4 h2 { font-size: 1.5rem; }
+}
+
+@media (max-width: 768px) {
+    .icon-container { flex-direction: column; }
+    .icon-box { width: 100%; margin-bottom: 15px; }
+    .header-container h2 { font-size: 1.3rem; }
+    .form-control { font-size: 1rem; padding: 0.5rem; }
+    .btn-start { padding: 0.8rem 1rem; font-size: 1rem; }
+    .faq-section{ padding: 60px 30px;}
+    .faq-section{font-size: 1.3rem;}
+    .unique-services-title span{ font-size: 28px;}
+    .timelinesection h2{font-size: 1.3rem;}
+}
+
+@media (max-width: 600px) {
+    .icon { width: 150px; }
+}
+
+@media (max-width: 992px) {
+    .navbar-text { display: none; }
+    .navbar-nav { margin-top: 10px; }
+    .navbar-nav .btn { width: 100%; margin-bottom: 10px; }
+}
+
+@media (max-width: 767px) {
+    .oneBillBanner h1 { font-size: 31px; text-align: center; }
+    .oneBillBanner h2 { text-align: center; font-size: 16px; }
+    .oneBillBanner .btn-primary, .oneBillBanner .btn-outline-primary { font-size: 14px; padding: 10px 15px; }
+    .oneBillBanner .right-section h3 { font-size: 22px; }
+    .oneBillBanner .right-section .record-savings { font-size: 13px; }
+}
+
+@media (max-width: 992px) {
+    .timeline-box span { font-size: 12px; }
+    .timeline-container { display: flex; flex-direction: column; align-items: center; }
+    .timeline-line { width: 4px; height: 100%; margin: 0 20px; }
+    .timeline-dot { left: 50%; transform: translateX(-50%); }
+    .dot-1 { top: 0%; left: 50%; transform: translateX(-50%); }
+    .dot-2 { top: 9%; left: 50%; transform: translateX(-50%); }
+    .dot-3 { top: 22%; left: 50%; transform: translateX(-50%); }
+    .dot-4 { top: 39%; left: 50%; transform: translateX(-50%); }
+    .dot-5 { top: 55%; left: 50%; transform: translateX(-50%); }
+    .dot-6 { top: 75%; left: 50%; transform: translateX(-50%); }
+    .dot-7 { top: 95%; left: 50%; transform: translateX(-50%); }
+    .timeline-box { width: 130px; padding: 8px; flex-direction: row; text-align: left; position: relative; }
+    .timeline-box img { margin-bottom: 5px; width: 24px; height: 24px; }
+    .customdot7 { top: 97.5%; left: 1.8px; }
+    .box-1 { top: unset; left: 37px; transform: translateY(-50%); }
+    .box-2 { top: unset; left: -160px; transform: translateY(-50%); }
+    .box-3 { top: unset; left: 37px; transform: translateY(-50%); }
+    .box-4 { top: unset; left: -160px; transform: translateY(-50%); }
+    .box-5 { top: unset; left: 37px; transform: translateY(-50%); }
+    .box-6 { top: unset; left: -160px; transform: translateY(-50%); }
+    .box-7 { top: unset; left: 37px; transform: translateY(-50%); }
+}
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ps-lg-5 pe-lg-5">
+          <a class="navbar-brand" href="index.html">
+            <img alt="OneBill Logo" height="45" src="images/onebill-logo.png" />
+          </a>
+          <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler border-0" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 ms-lg-auto mb-lg-0 gap-2">
+              <li class="nav-item">
+                <a aria-current="page" id="autoClick" class="nav-link active" href="index.html">Book a Call</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <div class="dropdown">
+                <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Smart Meters</a></li>
+                  <li><a class="dropdown-item" href="#">Solar, Batteries & EV's</a></li>
+                  <li><a class="dropdown-item" href="#">What Are Time of Use Tariffs (ToU)</a></li>
+                  <li><a class="dropdown-item" href="#">AutoSwitch'ing Explained</a></li>
+                  <li><a class="dropdown-item" href="#">Meter Readings</a></li>
+                  <li><a class="dropdown-item" href="#">Estimated Bills</a></li>
+                  <!--<li><a class="dropdown-item" href="Broadbandswitching.html">BroadBand Switching Explained</a></li>-->
+                  <!--<li><a class="dropdown-item" href="BroadbandTvMobile.html">Broadband, TV & Mobile</a></li>-->
+                  <!--<li><a class="dropdown-item" href="AutoSwitchExplained.html">AutoSwitch'ing Explained</a></li>-->
+                  <li><a class="dropdown-item" href="DownloadingHDF.html">Downloading Your HDF File</a></li>
+                </ul>
+              </div>
+              <li class="nav-item navitemSonBorder">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-success btn-small mr-10" id="redirectButton" href="#">Sign Up</a>
+                <a class="btn btn-outline-success btn-small" href="https://admin.onebill.ie/portal/login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Banner Section -->
+    <section class="oneBillBanner" id="selectBanner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-start">
+                        <h1>Do You Hate Bills? <br> Embrace AI-Powered <br>Utility Management</h1>
+                        <h2>We Automatically Switch & <br>Save Our Users €1200 a Year <br>on Average!!!</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-section">
+                        <h3>Start Saving Now</h3>
+                        <div class="d-grid gap-3">
+                            <button type="button" class="btn btn-outline-primary btn-click"><span>Upload Bills</span> <br>For an Instant Saving Calculation</button>
+                            <button type="button" class="btn btn-outline-primary"><span>Book a FREE Call</span> <br>With a Utility Specialist</button>
+                            <button type="button" class="btn btn-outline-primary"><span>Sign Me Up</span> <br>I Understand How OneBill Works</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="record-savings">*Our record saving amount so far is €7412!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timelinesection">
+        <h2>So How Does It Work?</h2>
+        <div class="timeline-container">
+            <div class="timeline-line">
+                <div class="dot-container">
+                    <div class="timeline-dot dot-1"></div>
+                </div>
+                <div class="dot-container">
+                    <div class="timeline-dot dot-2"></div>
+                </div>
+                <div class="dot-container">
+                    <div class="timeline-dot dot-3"></div>
+                </div>
+                <div class="dot-container">
+                    <div class="timeline-dot dot-4"></div>
+                </div>
+                <div class="dot-container">
+                    <div class="timeline-dot dot-5"></div>
+                </div>
+                <div class="dot-container">
+                    <div class="timeline-dot dot-6"></div>
+                </div>
+                <div class="dot-container">
+                    <div class="timeline-dot dot-7"></div>
+                    <div class="customdot7"></div>
+                </div>
+                <div class="timeline-box box-1">
+                    <img src="images/1.png" alt="Upload Icon">
+                    <span>Upload Some Bills</span>
+                </div>
+                <div class="timeline-box box-2">
+                    <img src="images/2.png" alt="Saving Icon">
+                    <span>See Your Accurate Saving</span>
+                </div>
+                <div class="timeline-box box-3">
+                    <img src="images/3.png" alt="Agent Icon">
+                    <span>OneBill Becomes Your Utility Agent</span>
+                </div>
+                <div class="timeline-box box-4">
+                    <img src="images/5.png" alt="AI Icon">
+                    <span>Bills Analysed With AI / ML Intelligence</span>
+                </div>
+                <div class="timeline-box box-5">
+                    <img src="images/4 (2).png" alt="Home Icon">
+                    <span>Tell Us About Your Home, Usage & Preferences</span>
+                </div>
+                <div class="timeline-box box-6">
+                    <img src="images/7.png" alt="Tariff Icon">
+                    <span>Tariffs Checked 24/7</span>
+                </div>
+                <div class="timeline-box box-7">
+                    <img src="images/6.png" alt="Save Money Icon">
+                    <span>Save Money Automatically</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section class="text-center mt-5 sectionupload">
+        <div class="container1">
+            <div class="card-body">
+                <div class="card-title">Grab Some Previous Bills and Upload ​Them Here</div>
+                <img class="icon1" src="images/2min.png" alt="2 Mins">
+                <div class="file-upload">
+                    <input class="file-input" type="file" id="fileInput" multiple name="bill[]">
+                    <img class="icon" src="images/upload1.png" alt="Upload Icon" >
+                    <div id="fileName" class="file-name">No file selected</div>
+                </div>
+            </div>
+            <p class="text-muted">
+                <span>The most accurate way to save is to use real data.</span> <br>
+                We'll analyse your usage & rates, then match you to the most appropriate tariffs from the whole marketplace.
+                If you're on a great deal already, we'll tell you!
+            </p>
+            <p class="pro-tip">Pro Tip: PDFs Work Best <span class="text-muted">(Need help finding them)</span><br>
+            For pictures: Ensure all pages are fully visible and clear</p>
+            <p class="mt-3"><small>By using our bill analyser you agree to OneBill's Terms and Conditions</small></p>
+        </div>
+    </section>
+
+    <!-- Bills in Hand Section -->
+    <section class="sectionhaveyourbill">
+        <div class="container2 text-center">
+            <div class="header-container">
+                <h2>Don't Have Your Bill's on Hand?</h2>
+            </div>
+            <img class="fivemin" src="images/5min.png" alt="5 Mins">
+            <input type="text" class="form-control mt-3" placeholder="Enter Your Address To See How Much You Can Save">
+            <h3 class="mt-4 mb-3">Select Your Services</h3>
+            <div class="icon-container">
+                <a href="#" class="icon-box">
+                    <img src="images/101.png" alt="Electricity">
+                    <p>Electricity</p>
+                </a>
+                <a href="#" class="icon-box">
+                    <img src="images/102.png" alt="Gas">
+                    <p>Gas</p>
+                </a>
+                <a href="#" class="icon-box">
+                    <img src="images/103.png" alt="Broadband">
+                    <p>Broadband</p>
+                </a>
+            </div>
+            <button class="btn btn-start">Start</button>
+        </div>
+    </section>
+
+    <!-- Fully Managed Utilities Section -->
+    <section class="fullmanagesection">
+        <div class="managedheading">
+            <h2>Fully Managed Utilities</h2>
+        </div>
+        <div class="container4">
+            <div class="features-container">
+                <div class="flexme">
+                    <div class="icon-container1">
+                        <img src="images/101.png" alt="Electricity">
+                        <img src="images/102.png" alt="Gas">
+                        <img src="images/103.png" alt="Broadband">
+                    </div>
+                    <div class="price">€10 p/m</div>
+                </div>
+                <ul class="features">
+                    <li><strong>Manage Up to 3 Utilities</strong></li>
+                    <li><strong>AutoSwitch</strong> for Energy</li>
+                    <li><strong>Optimised</strong> Every Day</li>
+                    <li><strong>Full Market</strong> Access</li>
+                    <li><strong>EV / Battery / Solar</strong> Planning</li>
+                    <li><strong>Smart-Tariff</strong> Management</li>
+                    <li><strong>Savings Guarantee</strong>*</li>
+                    <li><strong>Cancel Anytime</strong></li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+                *If we can't save you as much as your OneBill subscription fee, our service <strong>is FREE until we can!</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment-section">
+        <div class="appointment-text">
+            <h3>Do you have questions?<br>We're here to help!</h3>
+            <p>Let's jump on a call &gt;</p>
+        </div>
+        <div class="appointment-card">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/onebill-adem/utility-bills-ask-me-anything?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script><!-- Replace with actual logo path -->
+        </div>
+    </section>
+
+    <!-- Why Join OneBill Section -->
+    <section class="unique-services-section">
+        <h1 class="unique-services-title">Why Join <span>OneBill?</span></h1>
+        <div class="unique-row">
+            <div class="unique-service">
+                <img src="images/join1.png" alt="Precise Payments" class="unique-icon">
+                <h2 class="unique-service-title">Precise Payments</h2>
+                <p class="unique-service-description">Our algorithms analyse every bill, ensuring you pay the right amount on a schedule that suits you.</p>
+            </div>
+            <div class="unique-service">
+                <img src="images/join2.png" alt="Truly Independent" class="unique-icon">
+                <h2 class="unique-service-title">Truly Independent</h2>
+                <p class="unique-service-description">Our decisions are rooted in data, not commissions. Our focus is solely on what's best for you.</p>
+            </div>
+            <div class="unique-service">
+                <img src="images/join3.png" alt="End of Billing Chaos" class="unique-icon">
+                <h2 class="unique-service-title">End of Billing Chaos</h2>
+                <p class="unique-service-description">We consolidate all your utilities into one transparent bill, available 24/7 in your customer portal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2>Frequently Asked <span>Questions</span></h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How long does it take to see savings?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        While actual savings depend on your individual circumstances, many of our customers experience noticeable savings within the first billing cycle.                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Is there a contract or long-term commitment?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        No, we offer our services on a subscription basis, and you can cancel anytime. We believe in earning your loyalty through value, not contracts.                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Is my personal information safe?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Absolutely. We take your privacy seriously. Your information is used solely for managing your utility bills and will never be shared with third parties without your consent.                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn-faq">Read More FAQs</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="custom-footer container-fluid">
+        <div class="row">
+            <!-- Logo and Company Info -->
+            <div class="col-md-6 col-lg-4">
+                <div class="brand-logo">
+                    <img src="images/onebill-logo.png" alt="OneBill Logo" class="img-fluid">
+                </div>
+                <div class="footer-description">
+                    <p><strong>OneBill Utilities Ltd is a registered company in Ireland.</strong></p>
+                    <p><small><strong>CRO:</strong> 658186</small></p>
+                    <p>&copy; Copyright 2024. All rights reserved.</p>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="social-icons-group">
+                    <a href="https://twitter.com/OneBill_Ireland" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/onebill_utilities" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/onebillutilities/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/+353858007335" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:info@onebill.ie"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <!-- Certifications -->
+            <div class="col-md-6 col-lg-4 align-text-right">
+                <div class="certification-badge">
+                    <img src="images/ei.png" alt="Certification 1" class="img-fluid">
+                </div>
+            </div>
+            <!-- Quick Links and Policies -->
+            <div class="col-md-12 col-lg-4">
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="quick-links-section">Quick Links</h5>
+                        <div class="link-container">
+                            <a href="index.html">Home</a>
+                            <a href="https://onebill.ie/how-it-works.html">How It Works</a>
+                            <a href="faqs.html">FAQs</a>
+                            <a href="contact-us.html">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="policies-section">Policies</h5>
+                        <div class="link-container">
+                            <a href="Terms-Conditions.html">Terms &amp; Conditions</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="cookies.html">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Chat Button -->
+        <a href="https://wa.me/353858007335" class="btn btn-outline-success chat-button-fixed shadow-sm">
+            <i class="fab fa-whatsapp"></i> Chat With Us
+        </a>
+    </footer>
+
+    <!-- Bootstrap JS Link -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(function(navLink) {
+                navLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const targetId = navLink.getAttribute('data-target');
+                    const targetElement = document.getElementById(targetId);
+
+                    navLinks.forEach(function(link) {
+                        link.classList.remove('active');
+                    });
+
+                    navLink.classList.add('active');
+                });
+            });
+        });
+
+        const fileInput = document.getElementById('fileInput');
+        const fileNameDisplay = document.getElementById('fileName');
+
+        fileInput.addEventListener('change', function() {
+            if (fileInput.files.length > 0) {
+                fileNameDisplay.textContent = fileInput.files[0].name;
+            } else {
+                fileNameDisplay.textContent = 'No file selected';
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('#fileInput').on('change', function(event) {
+                var files = event.target.files;
+                if (files.length === 0) {
+                    alert("Lütfen bir dosya seçin.");
+                    return;
+                }
+
+                // Güncellenmiş dosya ismini göster
+                var fileNames = Array.from(files).map(file => file.name).join(', ');
+                $('#fileName').text(fileNames);
+
+                var token = generateToken();
+                var formData = new FormData();
+
+                // Dosyaları FormData'ya ekle
+                Array.from(files).forEach(file => {
+                    formData.append('bill[]', file);
+                });
+                formData.append('token', token);
+
+
+                var targetUrl = 'https://admin.onebill.ie/api/readFile';
+
+                $.ajax({
+                    url: targetUrl,
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+
+                        var array = response.data;
+                        var integer = response.integer;
+                        var cus_details =  array.bills.cus_details[0];
+
+                        localStorage.setItem('name', cus_details.details.customer_name);
+                        localStorage.setItem('eircode', cus_details.details.address.eircode);
+                        localStorage.setItem('address', cus_details.details.address.line_1 + cus_details.details.address.line_2 + cus_details.details.address.city + cus_details.details.address.country + cus_details.details.address.eircode);
+                        localStorage.setItem('electricity', cus_details.services.electricity);
+                        localStorage.setItem('gas', cus_details.services.gas);
+                        localStorage.setItem('broadband', cus_details.services.broadband);
+                        localStorage.setItem('savings', integer);
+                       
+                        window.location.href="save3.html";
+                        
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Dosya yüklenirken hata oluştu:", error);
+                    }
+                });
+            });
+
+           
+            function generateToken() {
+                return Math.random().toString(36).substr(2); 
+            }
+        });
+    </script>
+
+</body>
+</html>

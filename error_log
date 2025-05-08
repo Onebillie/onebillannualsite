@@ -1,0 +1,510 @@
+[13-May-2024 10:46:42 Europe/Dublin] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:47:32 Europe/Dublin] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:47:34 Europe/Dublin] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:49:06 Europe/Dublin] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:49:40 Europe/Dublin] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:55:22 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:55:32 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:55:34 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 10:55:35 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 17:37:55 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:44:29 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:53:31 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:55:46 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:55:47 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:55:58 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:55:59 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:55:59 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:00 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:14 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:41 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:43 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:56:44 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 9
+[13-May-2024 21:59:20 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:59:23 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:59:24 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 21:59:26 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:00:58 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:00:58 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:00:59 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:00:59 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:00:59 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:00 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:00 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:00 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:00 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:01 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:02 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:02 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:02 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:02 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:02 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:02 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:03 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:03 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:03 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:04 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:04 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:05 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:06 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:06 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:07 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:09 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:10 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:11 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:11 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:12 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:12 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:01:31 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 79
+[13-May-2024 22:04:11 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:04:12 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:04:14 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:04:15 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:04:16 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:04:18 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:14 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:15 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:16 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:32 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:33 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:33 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:33 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:34 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:05:34 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 80
+[13-May-2024 22:10:19 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:21 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:22 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:23 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:24 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:26 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:27 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:10:28 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:12:03 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:13:15 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:17:26 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 8
+[13-May-2024 22:17:54 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 7
+[13-May-2024 22:17:56 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 7
+[13-May-2024 22:19:11 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:19:12 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:20:27 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:20:29 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:20:35 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:20:42 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:21:12 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 83
+[13-May-2024 22:22:42 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/board2ok.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/board2ok.php on line 11
+[13-May-2024 22:29:20 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 83
+[13-May-2024 22:29:22 Europe/Dublin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/o577913/public_html/dashboard.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/o577913/public_html/dashboard.php on line 83
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/randevu_kaydet.php on line 3
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/randevu_kaydet.php on line 4
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/randevu_kaydet.php on line 3
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "datetarh" in /home/o577913/public_html/randevu_kaydet.php on line 5
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/randevu_kaydet.php on line 4
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "datetarh" in /home/o577913/public_html/randevu_kaydet.php on line 5
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "selected-time" in /home/o577913/public_html/randevu_kaydet.php on line 6
+[14-May-2024 08:13:16 Europe/Dublin] PHP Warning:  Undefined array key "selected-time" in /home/o577913/public_html/randevu_kaydet.php on line 6
+[14-May-2024 08:13:26 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/iletisim_kaydet.php on line 2
+[14-May-2024 08:13:26 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/iletisim_kaydet.php on line 3
+[14-May-2024 08:13:26 Europe/Dublin] PHP Warning:  Undefined array key "message" in /home/o577913/public_html/iletisim_kaydet.php on line 4
+[14-May-2024 08:13:27 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/iletisim_kaydet.php on line 2
+[14-May-2024 08:13:27 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/iletisim_kaydet.php on line 3
+[14-May-2024 08:13:27 Europe/Dublin] PHP Warning:  Undefined array key "message" in /home/o577913/public_html/iletisim_kaydet.php on line 4
+[16-May-2024 18:29:11 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's completely free of charge! It is impossible to discuss horoscope with friends ' at line 1 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[07-Jun-2024 02:31:06 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's search engine ranking. 
+Improve your SEO with link building and profile creat' at line 1 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[17-Jun-2024 13:35:13 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/iletisim_kaydet.php on line 2
+[17-Jun-2024 13:35:13 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/iletisim_kaydet.php on line 3
+[17-Jun-2024 13:35:13 Europe/Dublin] PHP Warning:  Undefined array key "message" in /home/o577913/public_html/iletisim_kaydet.php on line 4
+[27-Jun-2024 06:36:40 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://rushleadgeneration.com/unsubscribe.aspx' at line 24 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[02-Jul-2024 06:40:57 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/iletisim_kaydet.php on line 2
+[02-Jul-2024 06:40:57 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/iletisim_kaydet.php on line 3
+[02-Jul-2024 06:40:57 Europe/Dublin] PHP Warning:  Undefined array key "message" in /home/o577913/public_html/iletisim_kaydet.php on line 4
+[02-Jul-2024 07:18:27 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/iletisim_kaydet.php on line 2
+[02-Jul-2024 07:18:27 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/iletisim_kaydet.php on line 3
+[02-Jul-2024 07:18:27 Europe/Dublin] PHP Warning:  Undefined array key "message" in /home/o577913/public_html/iletisim_kaydet.php on line 4
+[02-Jul-2024 09:26:44 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://blazeleadgeneration.com/unsubscribe.asp' at line 24 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[05-Jul-2024 03:09:22 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://blazeleadgeneration.com/unsubscribe.asp' at line 45 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[07-Jul-2024 22:15:07 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click https://rushleadgeneration.com/unsubscribe.aspx?d=on' at line 45 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[08-Jul-2024 12:06:45 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://turboleadgeneration.com/unsubscribe.asp' at line 45 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[10-Jul-2024 23:38:51 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://blazeleadgeneration.com/unsubscribe.asp' at line 38 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[11-Jul-2024 07:47:46 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://rushleadgeneration.com/unsubscribe.aspx' at line 36 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[11-Jul-2024 12:20:04 Europe/Dublin] PHP Warning:  Undefined array key "name" in /home/o577913/public_html/iletisim_kaydet.php on line 2
+[11-Jul-2024 12:20:04 Europe/Dublin] PHP Warning:  Undefined array key "contact-email" in /home/o577913/public_html/iletisim_kaydet.php on line 3
+[11-Jul-2024 12:20:04 Europe/Dublin] PHP Warning:  Undefined array key "message" in /home/o577913/public_html/iletisim_kaydet.php on line 4
+[12-Jul-2024 13:49:46 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://rushleadgeneration.com/unsubscribe.aspx' at line 36 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[12-Jul-2024 14:53:39 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here http://rushleadgeneration.com/unsubscribe.aspx?' at line 40 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[12-Jul-2024 23:37:01 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'm Glenn and I’m guessing you would prefer your webpage onebill.ie to produce m' at line 3 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[13-Jul-2024 11:00:10 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://rushleadgeneration.com/unsubscribe.aspx' at line 32 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[13-Jul-2024 18:25:56 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://rushleadgeneration.com/unsubscribe.aspx' at line 24 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
+[14-Jul-2024 13:09:13 Europe/Dublin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd like to unsubscribe click here https://rushleadgeneration.com/unsubscribe.aspx' at line 24 in /home/o577913/public_html/iletisim_kaydet.php:13
+Stack trace:
+#0 /home/o577913/public_html/iletisim_kaydet.php(13): mysqli->query()
+#1 {main}
+  thrown in /home/o577913/public_html/iletisim_kaydet.php on line 13
