@@ -18,10 +18,10 @@ export function createHeader() {
               <a aria-current="page" id="autoClick" class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="how-it-works.html">How It Works</a>
+              <a class="nav-link" href="/how-it-works.html">How It Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="price.html">Pricing</a>
+              <a class="nav-link" href="/pricing.html">Pricing</a>
             </li>
 
             <div class="dropdown">
@@ -31,7 +31,7 @@ export function createHeader() {
                 <li><a class="dropdown-item" href="/guides/smartmeters.html">Smart Meters</a></li>
                 <li><a class="dropdown-item" href="/guides/solar-batt-ev.html">Solar, Batteries & EV's</a></li>
                 <li><a class="dropdown-item" href="/guides/tou.html">What Are Time of Use Tariffs (ToU)</a></li>
-                <li><a class="dropdown-item" href="/guides/AutoSwitch.html">AutoSwitch'ing Explained</a></li>
+                <li><a class="dropdown-item" href="/guides/AutoSwitch.html">AuthSwitching Explained</a></li>
                 <li><a class="dropdown-item" href="/guides/Meter-Readings.html">Meter Readings</a></li>
                 <li><a class="dropdown-item" href="/guides/EstimatedBills.html">Estimated Bills</a></li>
                 <li><a class="dropdown-item" href="/guides/DownloadingHDF.html">Downloading Your HDF File</a></li>

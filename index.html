@@ -8,7 +8,6 @@
     content="OneBill - Automatically save money with our AI-powered utility platform. Manage electricity, gas, broadband and more. Sign up for smarter savings today!">
   <meta name="keywords" content="OneBill, utility bills, save money, AI-powered, electricity, gas, broadband">
   <meta name="author" content="OneBill">
-  <!-- External CSS dependencies -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -21,15 +20,12 @@
   <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/index.css">
-  <!-- External JavaScript dependencies -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"></script>
-  <!-- Analytics Scripts -->
   <script type="module" src="js/utils/tracking.js"></script>
   <script type="module" src="js/index.js"></script>
 </head>
-
 <body>
   <header></header>
   <!-- Hero section with bill upload functionality-->
@@ -80,7 +76,6 @@
                   </div>
                 </div>
               </div>
-
               <!-- Container to display uploaded files -->
               <div class="uploaded-files-container" id="uploadedFilesContainer">
                 <!-- Uploaded files will be displayed here -->
@@ -94,13 +89,11 @@
                     placeholder="Enter your phone number" required pattern="^\+?[1-9]\d{1,14}$"
                     title="Please enter a valid phone number (e.g., 0898765432)">
                 </div>
-
                 <!-- Email Input -->
                 <div class="form-group email-field">
                   <input type="email" class="form-control email-input" id="emailAddress" name="emailAddress"
                     placeholder="Enter your email" required>
                 </div>
-
                 <!-- Terms and Conditions Checkbox -->
                 <div class="form-check terms-checkbox">
                   <input type="checkbox" class="form-check-input terms-input" id="termsCheckbox" required>
@@ -110,12 +103,10 @@
                   </label>
                 </div>
               </div>
-
               <!-- Process Bills Button (Hidden initially) -->
               <button type="button" class="btn btn-primary mx-auto" id="processButton" disabled
                 style="display: none;">Process
                 Bills</button>
-
               <p class="pro-tip">Tip: PDFs Work Best <span class="text-muted"><a href="#">Need
                     help..?</a></span><br>
                 For pictures: Ensure all pages are fully visible and clear
@@ -137,7 +128,6 @@
       </div>
     </div>
   </section>
-
   <!-- Loading indicator for bill processing -->
   <div class="loader-container" style="display:none;">
     <div class="loader"></div>
@@ -145,11 +135,9 @@
       deals.<br>This may take up to 2 minutes.
     </div>
   </div>
-
-  <a href="https://onebill.ie/price.html" class="membership-fee-text">
+  <a href="https://onebill.ie/pricing.html" class="membership-fee-text">
     Our Membership Fee's Start From <strong>€100 Per Year</strong>
   </a>
-
   <section class="timelinesection">
     <h2>So How Does It Work?</h2>
     <div class="timeline-container">
@@ -175,7 +163,6 @@
         <div class="dot-container">
           <div class="timeline-dot dot-7"></div>
         </div>
-
         <div class="timeline-box box-1">
           <img src="/assets/images/timeline-1.png" alt="Upload Icon">
           <span>Upload Some Bills</span>
@@ -207,7 +194,6 @@
       </div>
     </div>
   </section>
-
   <section class="sectionhaveyourbill" id="scrool-alert">
     <div class="container2 text-center">
       <div class="header-container">
@@ -223,28 +209,23 @@
         </div>
         <div id="eircodeError" class="text-danger" style="display:none;">Please enter your address.</div>
       </div>
-
       <div class="container mt-3">
         <div id="addressDiv" style="display: none">
           <input type="text" class="form-control mt-3" placeholder="Result" id="addressInput">
         </div>
-
         <div>
           <input type="email" class="form-control mt-3" placeholder="Email" id="email" name="email">
           <div id="emailError" class="text-danger" style="display:none;">Please enter a valid email address
             (e.g., example@example.com).</div>
         </div>
-
         <div>
           <input type="tel" class="form-control mt-3" placeholder="Phone Number" maxlength="10" id="phone" name="phone">
           <div id="phoneError" class="text-danger" style="display:none;">Please enter a valid 10-digit phone
             number.</div>
         </div>
       </div>
-
       <h3 class="mt-4 mb-3">Select Your Services</h3>
       <div id="servicesError" class="text-danger" style="display:none;">Please select at least one service.</div>
-
       <div class="icon-container">
         <label class="icon-box">
           <input type="checkbox" name="services" value="electricity" class="checkbox-input" id="input1">
@@ -262,11 +243,9 @@
           <p>Broadband</p>
         </label>
       </div>
-
       <button class="btn btn-start" type="button">Start</button>
     </div>
   </section>
-
   <section class="pricing-section">
     <div class="container">
       <h2>Fully Managed Utilities</h2>
@@ -325,7 +304,6 @@
       </div>
     </div>
   </section>
-
   <section class="appointment-section">
     <div class="appointment-text">
       <h3>Do you have questions?<br>We're here to help!</h3>
@@ -338,7 +316,6 @@
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     </div>
   </section>
-
   <section class="unique-services-section">
     <h1 class="unique-services-title">Why Join <span>OneBill?</span></h1>
     <div class="unique-row">
@@ -362,7 +339,6 @@
       </div>
     </div>
   </section>
-
   <section class="faq-section">
     <h2>Frequently Asked <span>Questions</span></h2>
     <div class="accordion" id="faqAccordion">
