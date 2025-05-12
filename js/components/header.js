@@ -21,10 +21,10 @@ export function createHomeHeader() {
                                 <li><a class="dropdown-item" href="/guides/smartmeters.html">Smart Meters</a></li>
                                 <li><a class="dropdown-item" href="/guides/solar-batt-ev.html">Solar, Batteries & EV's</a></li>
                                 <li><a class="dropdown-item" href="/guides/tou.html">What Are Time of Use Tariffs (ToU)</a></li>
-                                <li><a class="dropdown-item" href="/guides/AutoSwitch.html">AuthSwitching Explained</a></li>
-                                <li><a class="dropdown-item" href="/guides/Meter-Readings.html">Meter Readings</a></li>
-                                <li><a class="dropdown-item" href="/guides/EstimatedBills.html">Estimated Bills</a></li>
-                                <li><a class="dropdown-item" href="/guides/DownloadingHDF.html">Downloading Your HDF File</a></li>
+                                <li><a class="dropdown-item" href="/guides/autoswitch.html">AutoSwitching Explained</a></li>
+                                <li><a class="dropdown-item" href="/guides/meter-readings.html">Meter Readings</a></li>
+                                <li><a class="dropdown-item" href="/guides/estimated-bills.html">Estimated Bills</a></li>
+                                <li><a class="dropdown-item" href="/guides/how-to-download-hdf.html">Downloading Your HDF File</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
