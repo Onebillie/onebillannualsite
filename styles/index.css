@@ -1,0 +1,1250 @@
+/* Hero Section (+ Bill upload section) Start */
+.oneBillBanner {
+  margin-top: 50px;
+  padding-top: 60px;
+  margin-bottom: 4rem;
+  background: var(--light-gray-bg);
+  background-image: url('../assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.oneBillBanner h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--primary-blue);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.oneBillBanner h2 {
+  font-size: 35px;
+  color: var(--black);
+  margin-bottom: 2rem;
+  margin-top: 70px;
+}
+
+.oneBillBanner .btn-primary {
+  background-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  width: 40%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.oneBillBanner .btn-primary:hover {
+  background-color: var(--primary-blue-dark);
+  border-color: var(--primary-blue-dark);
+}
+
+.oneBillBanner .btn-outline-primary {
+  color: var(--black);
+  border-color: var(--primary-blue);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.oneBillBanner .btn-outline-primary span {
+  font-weight: 400;
+}
+
+.oneBillBanner .btn-outline-primary:hover {
+  background-color: var(--primary-blue);
+  color: var(--white);
+}
+
+.oneBillBanner .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oneBillBanner .head {
+  margin-top: -10%;
+}
+
+.oneBillBanner .right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+  width: 400px;
+}
+
+.oneBillBanner .right-section h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.uploaded-files-container {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed var(--primary-blue-bright);
+  width: 500px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: var(--white);
+}
+
+.upload-instructions p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.upload-area {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+}
+
+.upload-area.dragging {
+  background-color: var(--light-gray-alt4);
+  border-color: var(--primary-blue-medium);
+}
+
+.upload-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-gray-alt);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.upload-button img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.file-upload:hover {
+  background-color: var(--light-blue);
+}
+
+.icondrag img {
+  width: 90px;
+}
+
+.maindrag {
+  display: flex;
+  gap: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-muted {
+  padding-top: 30px;
+}
+
+.text-muted span {
+  font-weight: 700;
+  color: var(--black);
+}
+
+.pro-tip {
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+}
+
+.file-upload {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-upload .icon1 {
+  width: 40px;
+  float: right;
+  margin-left: 150%;
+}
+
+.file-upload > label {
+  display: block;
+  cursor: pointer;
+}
+
+.header img {
+  width: 50px;
+  position: absolute;
+  right: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.header p {
+  font-size: 16px;
+  color: var(--medium-gray-alt3);
+  display: flex;
+  justify-content: center;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-item {
+  padding: 5px;
+  border-bottom: 1px solid var(--light-gray-alt5);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--medium-gray-alt3);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.remove-file-button {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  padding: 2px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-file-button:hover {
+  background-color: var(--red-dark-alt);
+}
+
+.form-container .email-input {
+  margin-top: 15px;
+}
+
+.phone-number-field .phone-input,
+.email-field .email-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--light-blue-alt2);
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.terms-checkbox .terms-input {
+  margin-right: 10px;
+}
+
+.form-check {
+  margin-top: 15px;
+}
+
+.terms-checkbox .terms-label {
+  font-size: 0.875rem;
+  color: var(--medium-gray-alt2);
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.upload-area,
+.form-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploaded-files-container {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* max-width: 400px; Same max width as upload box */
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.icon {
+  width: 250px;
+}
+
+#processButton {
+  margin-top: -15px;
+}
+
+.record-savings {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--medium-gray-alt);
+  margin-top: 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+.record-savings span {
+  font-weight: 600;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 9999;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.loader {
+  display: inline-flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.loader:before,
+.loader:after {
+  content: '';
+  height: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, var(--loader-blue) 95%, #0000) 35% 35%/8px 8px
+    no-repeat var(--white);
+  animation: l5 1.5s infinite ease-in-out;
+}
+
+.loader-message {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: var(--loader-text);
+  max-width: 70%;
+  line-height: 1.4;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
+  padding: 10px 0;
+}
+
+@keyframes l5 {
+  0%,
+  11% {
+    background-position: 35% 35%;
+  }
+  14%,
+  36% {
+    background-position: 65% 35%;
+  }
+  38%,
+  61% {
+    background-position: 65% 65%;
+  }
+  64%,
+  86% {
+    background-position: 35% 65%;
+  }
+  88%,
+  100% {
+    background-position: 35% 35%;
+  }
+}
+/* Hero Section (+ Bill upload section) End */
+
+/* Timeline Section Start */
+.membership-fee-text {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--primary-blue);
+  margin-bottom: 20px;
+}
+
+.timelinesection {
+  padding-top: 200%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+.timeline-header {
+  text-align: center;
+  margin-top: 80%;
+}
+
+.timelinesection h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--primary-blue);
+}
+
+.timeline-container {
+  width: 70%;
+  max-width: 1900px;
+  position: relative;
+  padding-top: 7%;
+}
+
+.timeline-line {
+  position: relative;
+  width: 110%;
+  height: 4px;
+  background-color: var(--primary-blue);
+  margin: 50px 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-blue);
+  border-radius: 50%;
+}
+
+.dot-1 {
+  left: 0%;
+}
+.dot-2 {
+  left: 20%;
+}
+.dot-3 {
+  left: 35%;
+}
+.dot-4 {
+  left: 50%;
+}
+.dot-5 {
+  left: 65%;
+}
+.dot-6 {
+  left: 80%;
+}
+.dot-7 {
+  left: 100%;
+}
+
+.timeline-box {
+  position: absolute;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeline-box img {
+  width: 54px;
+  height: 54px;
+}
+
+.box-1 {
+  top: -105px;
+  left: calc(5% - 75px);
+}
+.box-2 {
+  top: 40px;
+  left: calc(20% - 75px);
+}
+.box-3 {
+  top: -106px;
+  left: calc(35% - 75px);
+}
+.box-4 {
+  top: 40px;
+  left: calc(50% - 75px);
+}
+.box-5 {
+  top: -140px;
+  left: calc(65% - 75px);
+}
+.box-6 {
+  top: 40px;
+  left: calc(80% - 75px);
+}
+.box-7 {
+  top: -100px;
+  left: calc(95% - 75px);
+}
+/* Timeline Section End */
+
+/* Onboarding Form Section Start*/
+.sectionhaveyourbill {
+  height: 100%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray-bg);
+}
+
+.container2 {
+  max-width: 750px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.header-container h2 {
+  font-size: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.fivemin {
+  width: 60px;
+  float: right;
+}
+
+.form-control {
+  border-color: var(--primary-blue-medium);
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.icon-box {
+  border: 2px solid var(--primary-blue-medium);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--white);
+  text-decoration: none;
+  width: 30%;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition:
+    padding 0.3s ease,
+    font-size 0.3s ease,
+    width 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.icon-box img {
+  width: 90px;
+  margin-bottom: 5px;
+  transition: width 0.3s ease;
+}
+
+.icon-box p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--medium-gray-blue);
+  font-weight: 600;
+  transition: font-size 0.3s ease;
+}
+
+.icon-box input[type='checkbox'] {
+  display: none;
+}
+
+.icon-box input[type='checkbox']:checked + img {
+  opacity: 0.6;
+}
+
+.icon-box input[type='checkbox']:checked + img + p {
+  color: var(--primary-blue);
+  font-weight: 700;
+}
+
+.icon-box input[type='checkbox']:checked + img + p::before {
+  content: '✓';
+  color: var(--primary-blue);
+  margin-right: 5px;
+}
+
+.icon-box:hover {
+  background-color: var(--light-blue-alt);
+}
+
+.btn-start {
+  background-color: var(--primary-blue-medium);
+  color: var(--white);
+  padding: 0.8rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 2px solid var(--primary-blue-medium);
+  width: 50%;
+}
+
+.btn-start:hover {
+  background-color: var(--white);
+  color: var(--primary-blue-medium);
+  border: 1px solid var(--primary-blue-medium);
+}
+/* Onboarding Form Section End*/
+
+/* Pricing Section Start */
+.pricing-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: var(--light-gray-bg);
+}
+
+.pricing-section h2 {
+  font-size: 30px;
+  color: var(--primary-blue);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.pricing-card {
+  border: 2px solid var(--primary-blue);
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.features {
+  text-align: left;
+  margin: 0;
+  padding: 15px;
+  list-style-type: none;
+  font-size: 1rem;
+  color: var(--dark-gray);
+  border: 2px solid var(--primary-blue-medium);
+  border-radius: 10px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  background: var(--light-gray-alt);
+}
+
+.pricing-card h3 {
+  font-size: 24px;
+  color: var(--primary-blue);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li b {
+  font-weight: 700;
+}
+
+.pricing-card .price {
+  font-size: 28px;
+  color: var(--primary-blue);
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.pricing-card.inactive {
+  opacity: 0.7;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 16px;
+  color: var(--medium-gray-alt3);
+  text-align: center;
+}
+
+.disclaimer b {
+  font-weight: 700;
+}
+/* Pricing Section End */
+
+/* Calendly Section Start */
+.appointment-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.appointment-text {
+  max-width: 65%;
+  text-align: center;
+}
+
+.appointment-text h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.appointment-text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.appointment-card {
+  width: 500px;
+  height: 550px;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+
+.calendly-inline-widget {
+  width: 100%;
+  height: 100%;
+}
+/* Calendly Section End */
+
+/* Error Messages */
+.text-danger {
+  color: var(--red);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Unique Services Section Start */
+.unique-services-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.unique-services-section span {
+  font-weight: 600;
+  color: var(--primary-blue-alt);
+}
+
+.unique-services-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--dark-gray);
+  position: relative;
+}
+
+.unique-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.unique-service {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.unique-icon {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.unique-service-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: var(--dark-gray);
+}
+
+.unique-service img {
+  width: 25%;
+}
+
+.unique-service-description {
+  font-size: 16px;
+  color: var(--black);
+  line-height: 1.6;
+}
+/* Unique Services Section End */
+
+/* FAQ Section Start */
+.accordion {
+  margin-top: 50px;
+}
+
+.faq-section {
+  background-color: var(--light-gray-bg);
+  padding: 60px 130px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--dark-gray);
+}
+
+.faq-section h2 span {
+  color: var(--primary-blue-alt);
+}
+
+.accordion-button {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--primary-blue-alt);
+  color: var(--white);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-item {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-faq {
+  background-color: var(--primary-blue-alt);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 500;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.btn-faq:hover {
+  background-color: var(--primary-blue-dark-alt);
+  color: var(--white);
+}
+/* FAQ Section End */
+
+@media (max-width: 992px) {
+  /* Hero Section Start */
+
+  .oneBillBanner h1 {
+    font-size: 35px;
+    margin-left: -10px;
+  }
+
+  .oneBillBanner h2 {
+    font-size: 25px;
+  }
+
+  .container1 {
+    width: 300px;
+  }
+  /* Hero Section End */
+
+  /* Timeline Section Start */
+  .timeline-box span {
+    font-size: 12px;
+  }
+
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-line {
+    width: 4px;
+    height: 100%;
+    margin: 0 20px;
+  }
+
+  .timeline-dot {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-1 {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-2 {
+    top: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-3 {
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-4 {
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-5 {
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-6 {
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot-7 {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline-box {
+    width: 130px;
+    padding: 8px;
+    flex-direction: row;
+    text-align: left;
+    position: relative;
+  }
+
+  .timeline-box img {
+    margin-bottom: 5px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .box-1 {
+    top: unset;
+    left: 37px;
+    transform: translateY(-50%);
+  }
+
+  .box-2 {
+    top: unset;
+    left: -160px;
+    transform: translateY(-50%);
+  }
+
+  .box-3 {
+    top: unset;
+    left: 37px;
+    transform: translateY(-50%);
+  }
+
+  .box-4 {
+    top: unset;
+    left: -160px;
+    transform: translateY(-50%);
+  }
+
+  .box-5 {
+    top: unset;
+    left: 37px;
+    transform: translateY(-50%);
+  }
+
+  .box-6 {
+    top: unset;
+    left: -160px;
+    transform: translateY(-50%);
+  }
+
+  .box-7 {
+    top: unset;
+    left: 37px;
+    transform: translateY(-50%);
+  }
+  /* Timeline Section End */
+
+  /* Onboarding Form Section Start */
+  .sectionhaveyourbill {
+    margin-top: 0;
+  }
+
+  .icon-box {
+    width: 30%;
+  }
+
+  .icon-box img {
+    width: 80px;
+  }
+
+  .icon-box p {
+    font-size: 1.2rem;
+  }
+  /* Onboarding Form Section End */
+
+  /** Pricing Section Start */
+  .pricing-card {
+    padding: 20px;
+  }
+  .pricing-card h3 {
+    font-size: 22px;
+  }
+  .pricing-card .price {
+    font-size: 24px;
+  }
+  /** Pricing Section End */
+}
+
+@media (max-width: 880px) {
+  .appointment-section {
+    justify-content: space-around;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .oneBillBanner .head {
+    margin-top: 71px;
+  }
+
+  .oneBillBanner {
+    padding-top: 0;
+  }
+
+  .oneBillBanner h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .oneBillBanner .btn-primary {
+    width: 100%;
+  }
+
+  .oneBillBanner h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .oneBillBanner .btn-primary,
+  .oneBillBanner .btn-outline-primary {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .oneBillBanner .right-section h3 {
+    font-size: 22px;
+  }
+
+  .oneBillBanner .right-section .record-savings {
+    font-size: 13px;
+  }
+
+  .faq-section {
+    padding: 60px 30px;
+  }
+
+  .appointment-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    max-width: 990px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-box {
+    width: 30%;
+  }
+
+  .icon-box img {
+    width: 55px;
+  }
+
+  .icon-box p {
+    font-size: 0.8rem;
+  }
+
+  .header-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .form-control {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .btn-start {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+
+  /* Pricing Section Start */
+  .pricing-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 30px;
+  }
+  .pricing-section h2 {
+    font-size: 26px;
+  }
+
+  .features {
+    font-size: 0.95rem;
+    padding: 10px;
+    flex: 1 1 100%;
+    margin-top: 20px;
+  }
+  .pricing-card h3 {
+    font-size: 20px;
+  }
+  .pricing-card .price {
+    font-size: 22px;
+  }
+  /* Pricing Section End */
+
+  /* Onboarding form Section Start */
+  .header-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .icon-box {
+    width: 30%;
+  }
+
+  .icon-box img {
+    width: 55px;
+  }
+
+  .icon-box p {
+    font-size: 0.8rem;
+  }
+  /* Onboarding form Section End */
+}
+
+@media (max-width: 576px) {
+  .container1 {
+    width: 300px;
+  }
+
+  .icon-box {
+    width: 30%;
+    padding: 5px;
+  }
+
+  .icon-box img {
+    width: 50px;
+  }
+
+  .icon-box p {
+    font-size: 0.7rem;
+  }
+
+  .header-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .form-control {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+
+  .btn-start {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+
+  /* Pricing Section Start */
+  .pricing-section {
+    padding: 30px 0;
+  }
+  .pricing-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .pricing-card {
+    padding: 15px;
+  }
+  .features {
+    font-size: 0.9rem;
+  }
+  .pricing-card h3 {
+    font-size: 18px;
+  }
+  .pricing-card .price {
+    font-size: 20px;
+  }
+  /* Pricing Section End */
+}

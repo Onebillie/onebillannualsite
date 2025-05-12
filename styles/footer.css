@@ -1,0 +1,96 @@
+.custom-footer {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.align-text-right {
+  text-align: right;
+}
+
+.link-container a {
+  display: block;
+  margin-bottom: 8px;
+  color: #014895;
+  text-decoration: none;
+  font-weight: 450;
+}
+
+.brand-logo img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-description p {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.social-icons-group {
+  padding-top: 30px;
+}
+
+.social-icons-group a {
+  margin-right: 10px;
+  color: #014895;
+  font-size: 1.2rem;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: #ebedef;
+}
+
+.social-icons-group a:hover {
+  color: #007bff;
+}
+
+.quick-links-section,
+.policies-section {
+  margin-bottom: 20px;
+}
+
+.quick-links-section a,
+.policies-section a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.quick-links-section a:hover,
+.policies-section a:hover {
+  text-decoration: underline;
+}
+
+.certification-badge img {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.chat-button-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat {
+  background-color: #fff;
+  color: #198754 !important;
+  z-index: 2;
+  padding: 0.8rem 1rem !important;
+  margin-bottom: 1rem !important;
+  margin-right: 1rem !important;
+  font-weight: 400;
+  border-radius: 0.375rem;
+}
+.chat i {
+  color: #198754;
+}
+
+.chat:hover {
+  color: #fff !important;
+  background-color: #198754 !important;
+}
+
+.chat:hover i {
+  color: #fff;
+}

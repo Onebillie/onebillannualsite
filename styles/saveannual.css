@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Indie+Flower&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Satisfy&family=Yellowtail&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Calligraffitti&display=swap');
+
+.monthlyyearly {
+  display: inline-flex;
+  padding: 4px;
+  background-color: #e6e6e6;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  position: relative;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.monthlyyearly input[type='radio'] {
+  display: none;
+}
+
+.monthlyyearly label {
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.monthlyyearly label.active {
+  color: white;
+}
+
+.monthlyyearly .highlighter {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #004aa9;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+input#monthly:checked ~ label[for='monthly'],
+input#yearly:checked ~ label[for='yearly'] {
+  color: white;
+}
+
+input#yearly:checked ~ .highlighter {
+  transform: translateX(100%);
+}
+
+input#monthly:checked ~ .highlighter {
+  transform: translateX(0);
+}
+
+.kbw-signature {
+  width: 100% !important;
+  height: 180px;
+}
+
+#signature {
+  overflow: hidden;
+}
+
+#signaturePad canvas {
+  width: 100% !important;
+  height: 180px;
+}
+
+.heatingTypeValidation {
+  display: none;
+}
