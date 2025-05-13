@@ -12,23 +12,18 @@
   <meta property="og:url" content="https://onebill.ie" />
   <meta property="og:site_name" content="OneBill" />
   <link rel="canonical" href="https://onebill.ie" />
-  <link rel="shortcut icon" href="https://onebill.ie/images/favicon.png" />
+  <link rel="icon" href="assets/images/favicon.png" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
   <!--begin::Fonts(mandatory for all pages)-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
   <!--end::Fonts-->
-  <!--begin::Vendor Stylesheets(used for this page only)-->
-  <link href="fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-  <link href="datatables.bundle.css" rel="stylesheet" type="text/css" />
-  <!--end::Vendor Stylesheets-->
-  <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-  <link href="assets/css/plugins.bundle.css" rel="stylesheet" type="text/css" />
-  <link href="styles/style.bundle.css" rel="stylesheet" type="text/css" />
-  <!--end::Global Stylesheets Bundle-->
   <!-- Custom CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles/style.css" />
   <link rel="stylesheet" href="styles/footer.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
   <!-- Analytics Scripts -->
   <script type="module" src="js/utils/tracking.js"></script>
   <script type="module" src="js/utils/initLayout.js"></script>
@@ -2818,19 +2813,22 @@
   </div>
   <!--end::App-->
   <footer></footer>
-
   <script>var hostUrl = "assets/";</script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!--begin::Global Javascript Bundle(mandatory for all pages)-->
   <script src="assets/plugins/global/plugins.bundle.js"></script>
-  <script src="assets/js/scripts.bundle.js"></script>
-  <script src="assets/js/custom/utilities/modals/create-account.js"></script>
-  <script src="assets/js/custom/utilities/modals/js.js"></script>
-  <script src="assets/js/widgets.bundle.js"></script>
-  <script src="assets/js/custom/widgets.js"></script>
-  <script src="assets/js/custom/apps/chat/chat.js"></script>
-  <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-  <script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
-  <script src="assets/js/custom/utilities/modals/users-search.js"></script>
+  <script src="/js/scripts.bundle.js"></script>
+  <!--end::Global Javascript Bundle-->
+  <!--begin::Custom Javascript(used for this page only)-->
+  <script src="/js/keentheme-custom/modals/create-account.js"></script>
+  <script src="/js/keentheme-custom/modals/js.js"></script>
+  <script src="/js/keentheme-custom/widgets.bundle.js"></script>
+  <script src="/js/keentheme-custom/widgets.js"></script>
+  <script src="/js/keentheme-custom/chat.js"></script>
+  <script src="/js/keentheme-custom/modals/upgrade-plan.js"></script>
+  <script src="/js/keentheme-custom/modals/create-campaign.js"></script>
+  <script src="/js/keentheme-custom/modals/users-search.js"></script>
+  <!--end::Custom Javascript-->
   <script>
     $('input[name="house_type"]').change(function () {
 
@@ -4185,9 +4183,9 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-  <script type="text/javascript" src="signature.js"></script>
+  <script type="text/javascript" src="/js/utils/signature.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="signature.css">
+  <link rel="stylesheet" href="/styles/signature.css">
   <script type="text/javascript">
     var signaturePad = $('#signature').signature({
       syncField: '#signatureField',
