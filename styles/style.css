@@ -167,6 +167,7 @@ ul.tags {
 ul.tags li {
   display: inline-block;
   list-style-type: none;
+  float: left;
 }
 
 ul.tags li a {
@@ -220,7 +221,7 @@ ul.tags li a:hover {
   color: #004aa9;
 }
 [data-kt-scrolltop='on'] .scrolltop {
-  /* opacity: var(--bs-scrolltop-opacity-on); */
+  opacity: var(--bs-scrolltop-opacity-on);
   animation: animation-scrolltop 0.4s ease-out 1;
   display: flex;
 }
@@ -327,11 +328,11 @@ h2 {
   border: 3px solid #99a1b7 !important;
 }
 
-/* .oneBillBanner .txt h1{
-font-size: 55px;
-font-weight: 700;
-color: #004aa9;
-} */
+.oneBillBanner .txt h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #004aa9;
+}
 
 .mr-10 {
   margin-right: 10px;
@@ -428,9 +429,9 @@ header .dropdown-menu {
   border-color: #004aa9;
 }
 
-/* .oneBillBanner .txt h1 {
-    line-height: 58px;
-} */
+.oneBillBanner .txt h1 {
+  line-height: 58px;
+}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -543,10 +544,41 @@ main {
   margin: 0 auto;
 }
 
+.hero {
+  background-image: url('/images/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.about-hero {
+  background-image: url('/assets/images/about-hero.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
 .sozTxtK {
   padding: 25px 25px;
 }
-
+.about-hero.privacy {
+  background-image: url('/assets/images/privacy-policy-hero.jpg');
+}
+.about-hero.coockies {
+  background-image: url('/assets/images/cookie-policy.jpg');
+}
+.about-hero.terrms {
+  background-image: url('/assets/images/terms-condition.jpg');
+}
 #msform {
   text-align: center;
   position: relative;
@@ -751,7 +783,7 @@ main {
 .bg-body-tertiary h5 {
   font-weight: 600;
 }
-/* .oneBillBanner{
+.oneBillBanner {
   display: flex;
   padding: 50px 0px;
   background: url(/images/bannerback.jpg);
@@ -759,16 +791,16 @@ main {
   background-size: cover;
   margin-top: -30px;
 }
-.oneBillBanner .txt{
+.oneBillBanner .txt {
   display: flex;
   flex-direction: column;
 }
-.oneBillBanner .form-floating{
+.oneBillBanner .form-floating {
   display: flex;
   position: relative;
   margin-top: 15px;
 }
-.oneBillBanner .form-floating input{
+.oneBillBanner .form-floating input {
   min-width: calc(100% - 110px) !important;
   max-width: calc(100% - 110px) !important;
   margin-right: 10px;
@@ -776,39 +808,39 @@ main {
   max-height: 60px !important;
   border: none !important;
 }
-.oneBillBanner .form-floating button{
+.oneBillBanner .form-floating button {
   min-width: 100px !important;
   max-width: 100px !important;
   min-height: 60px !important;
   max-height: 60px !important;
   font-size: 25px;
   background: #004aa9;
-  }
-.oneBillBanner .img2{
-display: flex;
-justify-content: center;
-position: relative;
-overflow: hidden;
-width: 100%;
-height: auto;
-} */
+}
+.oneBillBanner .img2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link.active {
   border-bottom: 2px solid #004aa9;
 }
 
-/* .oneBillBanner .img2{
+.oneBillBanner .img2 {
   position: relative;
-  width: 100%;/
+  width: 100%;
 }
 
-  .oneBillBanner .img2 video{
-    width: 100%;
-    }
-  .oneBillBanner .img2{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 20px;
-  } */
+.oneBillBanner .img2 video {
+  width: 100%;
+}
+.oneBillBanner .img2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
 
 .bannerAltbtnlr {
   display: flex;
@@ -861,24 +893,23 @@ height: auto;
   flex-direction: column;
   justify-content: center;
 }
-
 .djucenter {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-/* .oneBillBanner .secGizleKtg {
-    min-width: calc(100% - 106px) !important;
-    max-width: calc(100% - 106px) !important;
-    margin-right: 10px;
-    display: flex;
-    border: none !important;
-    background: white;
-    border-radius: 7px;
-    padding: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-} */
+.oneBillBanner .secGizleKtg {
+  min-width: calc(100% - 106px) !important;
+  max-width: calc(100% - 106px) !important;
+  margin-right: 10px;
+  display: flex;
+  border: none !important;
+  background: white;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 #addressDropdown .dropdown-item:hover,
 #addressDropdown .dropdown-item:focus {
@@ -900,22 +931,22 @@ height: auto;
   border: 1px solid #f1f2f4;
 }
 
-/* .oneBillBanner .secGizleKtg h4{
-display: block;
-width: 100%;
-text-align: center;
-margin-top: 9px;
+.oneBillBanner .secGizleKtg h4 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 9px;
 }
 
-.oneBillBanner .txt h1{
-font-size: 55px;
-font-weight: 500;
-color: #004aa9;
+.oneBillBanner .txt h1 {
+  font-size: 55px;
+  font-weight: 500;
+  color: #004aa9;
 }
 
-.oneBillBanner .txt h3{
+.oneBillBanner .txt h3 {
   font-size: 30px;
-  } */
+}
 
 .dateNwinput .form-group {
   display: flex;
@@ -975,6 +1006,7 @@ color: #004aa9;
     max-width: 900px;
     margin: 0 auto;
   }
+
   .about {
     max-width: 1280px;
     margin: 0 auto;
@@ -1338,13 +1370,12 @@ color: #004aa9;
     width: 100% !important;
     margin: 0px;
   }
-  /* .oneBillBanner .txt h1 {
-  font-size: 42px;
-
-}
-.oneBillBanner .txt h3{
-  font-size: 25px;
-} */
+  .oneBillBanner .txt h1 {
+    font-size: 42px;
+  }
+  .oneBillBanner .txt h3 {
+    font-size: 25px;
+  }
   .form-container .col-md-8 {
     width: 100%;
   }
@@ -1379,9 +1410,9 @@ color: #004aa9;
     display: block !important;
   }
 
-  /* .oneBillBanner .form-floating>label{
-  font-size: 13px;
-} */
+  .oneBillBanner .form-floating > label {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 747px) {
@@ -1705,6 +1736,45 @@ color: #004aa9;
     display: flex !important;
     flex-direction: column !important;
   }
+  .oneBillBanner .txt h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #004aa9;
+    text-align: center;
+  }
+
+  #selectBanner h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .oneBillBanner .txt h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Raleway', sans-serif !important;
+    text-align: center;
+  }
+  .oneBillBanner .img2 img {
+    width: 60%;
+  }
+  .oneBillBanner .form-floating button {
+    min-width: 60px !important;
+    max-width: 60px !important;
+    min-height: 60px !important;
+    max-height: 60px !important;
+    font-size: 25px;
+    background: #004aa9;
+  }
+  .oneBillBanner .form-floating input {
+    min-width: calc(100% - 0px) !important;
+    max-width: calc(100% - 00px) !important;
+    margin-right: 10px;
+    min-height: 60px !important;
+    max-height: 60px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
   .uyeTkbStepTitle {
     color: #004aa9;
     width: 100%;
@@ -1715,21 +1785,21 @@ color: #004aa9;
     min-width: 110px;
     max-width: 110px;
   }
-  /* .oneBillBanner .secGizleKtg {
-  min-width: calc(100% - 0px) !important;
-  max-width: calc(100% - 0px) !important;
-} */
+  .oneBillBanner .secGizleKtg {
+    min-width: calc(100% - 0px) !important;
+    max-width: calc(100% - 0px) !important;
+  }
 
-  /* .oneBillBanner .secGizleKtg .checkbox-tile {
-  min-height: 100px;
-  border-radius:0.65rem;
-}
-.oneBillBanner .secGizleKtg label {
-  min-width: 26%;
-  max-width: 32%;
-  margin: 10px 0px;
-  padding: 3px !important;
-} */
+  .oneBillBanner .secGizleKtg .checkbox-tile {
+    min-height: 100px;
+    border-radius: 0.65rem;
+  }
+  .oneBillBanner .secGizleKtg label {
+    min-width: 26%;
+    max-width: 32%;
+    margin: 10px 0px;
+    padding: 3px !important;
+  }
   .bnnerBtnalt {
     min-width: 100% !important;
     max-width: 100% !important;
