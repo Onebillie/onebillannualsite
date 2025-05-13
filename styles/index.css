@@ -1248,3 +1248,21 @@
   }
   /* Pricing Section End */
 }
+
+.btn-success {
+  background: #004aa9 !important;
+  color: white;
+}
+
+.btn.btn-success:hover {
+  background: transparent !important;
+  color: #004aa9;
+  border-color: #004aa9;
+}
+
+.btn.btn-success:active,
+.btn.btn-success:focus {
+  background: #004aa9 !important;
+  color: #fff;
+  border-color: #004aa9;
+}
