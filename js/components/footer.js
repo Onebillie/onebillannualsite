@@ -47,9 +47,9 @@ export function createFooter() {
                     <div class="col-6">
                         <h5 class="policies-section">Policies</h5>
                         <div class="link-container">
-                            <a href="Terms-Conditions.html">Terms &amp; Conditions</a>
+                            <a href="terms-conditions.html">Terms &amp; Conditions</a>
                             <a href="/privacy-policy.html">Privacy Policy</a>
-                            <a href="cookies.html">Cookie Policy</a>
+                            <a href="cookie-policy.html">Cookie Policy</a>
                         </div>
                     </div>
                 </div>
