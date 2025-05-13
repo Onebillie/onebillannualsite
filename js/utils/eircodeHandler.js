@@ -67,6 +67,6 @@ export const goToOnboard = () => {
       localStorage.setItem(key, value);
     });
 
-    window.location.href = `saveannual.html${queryString}`;
+    window.location.href = `manual-based-savings.html${queryString}`;
   });
 };

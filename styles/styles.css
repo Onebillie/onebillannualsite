@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 576px) {
-  /* Being used in saveannual.html */
+  /* Being used in manual-based-savings.html */
   .form-control {
     font-size: 0.8rem;
     padding: 0.6rem;
@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 768px) {
-  /* Being used in saveannual.html */
+  /* Being used in manual-based-savings.html */
   .price {
     font-size: 2rem;
   }

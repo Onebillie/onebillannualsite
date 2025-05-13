@@ -183,8 +183,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Redirect based on services
             if (hasServices) {
-              console.log('Redirection to save3annual.html triggered');
-              window.location.href = 'http://onebill.ie/save3annual.html';
+              console.log('Redirection to bill-based-savings.html triggered');
+              window.location.href = 'bill-based-savings.html';
             } else {
               alert('Bill not found, please make sure you have uploaded a valid bill!');
             }
