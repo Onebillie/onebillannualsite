@@ -100,8 +100,6 @@
         let c_name = $("#InputName1").val() || "";
         let message = $("#floatingTextarea2").val() || "";
         let c_email = $("#InputEmail1").val() || "";
-        alert('function called!');
-        return;
         $.ajax({
           type: "POST",
           url: "https://admin.onebill.ie/api/send-form",
