@@ -21,7 +21,7 @@ export function createFooter() {
                     <a href="https://www.instagram.com/onebill_utilities" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/company/onebillutilities/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://wa.me/+353858007335" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="/cdn-cgi/l/email-protection#254c4b434a654a4b40474c49490b4c40"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:info@onebill.ie"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
 
