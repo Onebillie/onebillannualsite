@@ -207,6 +207,11 @@ ul.tags li a:hover {
   color: #004aa9;
 }
 
+.blue p,
+.blue span:not(.indicator-label, .indicator-progress) {
+  color: var(--bs-text-gray-800);
+}
+
 .form-control.error {
   border-color: #e74c3c;
   box-shadow:
