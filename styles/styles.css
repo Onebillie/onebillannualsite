@@ -1,0 +1,59 @@
+.btn-success:hover {
+  color: #014895;
+  background-color: transparent;
+  border: 1px solid #014895;
+}
+
+.btn-outline-success {
+  border-color: green;
+  color: green;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .oaymentSnpage .itemSnpage {
+    flex-direction: row !important;
+  }
+}
+
+/* Being used in book-a-call page */
+.calendly-inline-widget {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  /* Being used in manual-based-savings.html */
+  .form-control {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+
+  .btn-start {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .icon {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Being used in manual-based-savings.html */
+  .price {
+    font-size: 2rem;
+  }
+
+  .form-control {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .btn-start {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+}

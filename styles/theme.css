@@ -1,0 +1,82 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #004aa9;
+  --primary-blue-dark: #003a8c;
+  --primary-blue-alt: #014895;
+  --primary-blue-deep: #01117a;
+  --primary-blue-bright: #007bff;
+  --primary-blue-medium: #0056b3;
+  --primary-blue-dark-alt: #013a78;
+
+  /* Success/Green Colors */
+  --success-green: #198754;
+  --success-green-bright: #03c80a;
+
+  /* White and Light Colors */
+  --white: #ffffff;
+  --light-gray-bg: #f8f9fa;
+  --light-gray-bg-alt: #f9f9f9;
+  --light-gray: #f1f2f4;
+  --light-gray-alt: #f1f1f1;
+  --light-gray-alt2: #ebedef;
+  --light-gray-alt3: #e4e4e4;
+  --light-gray-alt4: #e0e0e0;
+  --light-gray-alt5: #ccc;
+  --light-blue: #dbedff;
+  --light-blue-alt: #eef4fc;
+  --light-blue-alt2: #ced4da;
+  --light-gray-comment: #eceff1; /* Previously commented out */
+
+  /* Gray and Neutral Colors */
+  --light-gray-blue: #99a1b7;
+  --light-gray-blue-alt: #b2b5be;
+  --light-blue-gray: #b5bfd9;
+  --light-blue-alt2: #b5c9fc;
+  --medium-gray: #494949;
+  --medium-gray-alt: #4a4848;
+  --medium-gray-alt2: #555;
+  --medium-gray-alt3: #666;
+  --medium-gray-alt4: #707070;
+  --medium-gray-alt5: #7d7d7d;
+  --medium-gray-blue: #6c757d;
+
+  --dark-gray: #333;
+  --dark-gray-alt: #47494b;
+
+  /* Black Colors */
+  --black: #000000;
+
+  /* Red and Warning Colors */
+  --red: #ff0000;
+  --red-dark: #c80303;
+  --red-very-dark: #4a0000;
+  --red-dark-alt: #8b0000;
+  --red-alt: #e74c3c;
+  --red-dark-alt2: #721c24;
+  --red-light: #f8d7da;
+  --red-light-alt: #f5c6cb;
+  --red-very-light: #ffe6e6;
+
+  /* Text Colors */
+  --text-dark: #212529;
+  --text-dark-transparent: #21252980;
+
+  /** Loader Colors */
+  --loader-blue: #3498db;
+  --loader-text: #154b97 /* Other Colors */ --dark-blue-gray: #2c3e50; /* Previously commented out */
+  --gray: #616161; /* Previously commented out */
+
+  /* RGBA Colors */
+  --black-transparent-18: rgba(0, 0, 0, 0.18);
+  --black-transparent-08: rgba(0, 0, 0, 0.08);
+  --black-transparent-24: rgba(0, 0, 0, 0.24);
+  --black-transparent-50: rgba(0, 0, 0, 0.5);
+  --black-transparent-60: rgba(0, 0, 0, 0.6);
+  --black-transparent-20: rgba(0, 0, 0, 0.2);
+  --black-transparent-30: rgba(0, 0, 0, 0.3);
+  --white-transparent-10: rgba(255, 255, 255, 0.1);
+  --white-transparent-70: rgba(255, 255, 255, 0.7);
+  --light-blue-transparent: rgba(233, 236, 239, 1); /* Fixed incorrect format */
+  --light-gray-transparent: rgba(248, 249, 250, 1); /* Fixed incorrect format */
+  --black-transparent-20-alt: rgba(0, 0, 0, 0.2);
+}
